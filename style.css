@@ -1,6 +1,6 @@
 nav {
 	overflow: hidden;
-	margin:10px 0px 0px 10px;
+	margin:2vw 0px 0px 10px;
 	background:lightgray;
 	padding: 10px;
 	position: fixed;
@@ -141,3 +141,6 @@ input[type='image'] {
 	position: relative;
   }
   
+td{
+	font-family: Trebuchet MS, sans-serif;
+}
