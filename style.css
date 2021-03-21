@@ -4,10 +4,11 @@ nav {
 	background:lightgray;
 	padding: 10px;
 	position: fixed;
+	left: 10%;
+	width: 80%;
 }
 
 .menuItems {
-	right: 0vw;
 	position: relative;
 	list-style: none;
 	display: flex;
