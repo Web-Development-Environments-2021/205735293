@@ -1,26 +1,12 @@
-body {
-	position: center;
-	background-image: url('pic-back.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: lightskyblue;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	min-height: 100vh;
-	font-family: Hack, monospace;
-  }
-
 nav {
+	overflow: hidden;
 	margin:10px 30px 0px 10px;
 	background:lightgray;
 	padding: 50px;
+	position: fixed;
 }
 
-ul.menuItems {
+.menuItems {
 	right: 28px;
 	position: relative;
 	list-style: none;
@@ -40,10 +26,28 @@ a {
 		text-transform: uppercase;
 		text-align: center;
 		font-family: "Comic Sans MS", cursive, sans-serif;
+		display: block;
+		float: left;
 }
 
+body {
+	position: center;
+	background-image: url('pic-back.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: lightskyblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	min-height: 100vh;
+	font-family: Hack, monospace;
+  }
 
 .tzipi{
+	top: 150px;
 	margin: 16px;
 	font-size: 96px;
 	color: rgb(161, 148, 163);
