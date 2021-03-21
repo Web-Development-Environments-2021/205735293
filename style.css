@@ -1,7 +1,137 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+body {
+	position: center;
+	background-image: url('pic-back.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: lightskyblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	min-height: 100vh;
+	font-family: Hack, monospace;
+  }
+
+nav {
+	margin:10px 30px 0px 10px;
+	background:lightgray;
+	padding: 20px;
 }
+
+ul.menuItems {
+	right: 28px;
+	position: relative;
+	list-style: none;
+	display: flex;
+	
+}
+li {
+	margin: 0px;
+}
+a {
+		text-decoration:black;
+		color: black;
+		font-family: monospace;
+		font-size: 20px;
+		font-weight: 100;
+		position: relative;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.tzipi{
+	margin: 16px;
+	font-size: 96px;
+	color: rgb(161, 148, 163);
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: all 1s ease-in-out;
+	position: relative;
+}
+p::before {
+	  content: attr(data-item);
+	  transition: all 1s ease-in-out;
+	  color: #000000;
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  width: 0;
+	  overflow: hidden;
+}
+  
+p:hover::before {
+		width: 100%;
+	  }
+
+.generalD{
+	text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	position:relative;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+h4{
+	color:dimgray;
+	margin: 0;
+	padding: 30px 0px 6px 0px;
+	font-size: 25px;
+	line-height: 30px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+	font-size: medium;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left{ 
+	position: relative; 
+	top:30px;
+	left: -500px;
+	height: 10px;
+	width: 26%;
+	background-image: linear-gradient(to right, rgb(201, 201, 201), rgb(37, 44, 44));
+}
+
+.right{
+	position: relative;
+	display:flex;
+	top:-15px;
+	right: -500px;
+	height: 10px;
+	width: 26%;
+	background-image: linear-gradient(to left, rgb(201, 201, 201), rgb(37, 44, 44));
+}
+
+.container{
+	position: center;
+}
+
+.fb-like{
+	left: 100px;
+	position: center;
+}
+
+.textBox{
+	width:400px;
+}
+p{
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 17px;
+}
+
+input[type='image'] {
+	height: 50px;
+	width: 40px;
+	position: relative;
+  }
+  
